@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jobmetric.github.io/blog</id>
-    <title>JobMetric Document Blog</title>
+    <title>JobMetric Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jobmetric.github.io/blog"/>
-    <subtitle>JobMetric Document Blog</subtitle>
+    <subtitle>JobMetric Blog</subtitle>
     <icon>https://jobmetric.github.io/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
