@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkjobmetric_document=globalThis.webpackChunkjobmetric_document||[]).push([[6366],{6366(e,c,t){t.d(c,{createArchitectureServices:()=>r.S});var r=t(8980);t(7960)}}]);
