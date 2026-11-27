@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkjobmetric_document=globalThis.webpackChunkjobmetric_document||[]).push([[1672],{33024(e){e.exports=JSON.parse('{"authors":[{"name":"JobMetric Team","url":"https://github.com/jobmetric","key":"jobmetric","page":null,"count":3}]}')}}]);

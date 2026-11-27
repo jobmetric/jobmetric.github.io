@@ -1,109 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jobmetric.github.io/blog</id>
+    <id>https://jobmetric.github.io/blog/</id>
     <title>JobMetric Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2026-11-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jobmetric.github.io/blog"/>
+    <link rel="alternate" href="https://jobmetric.github.io/blog/"/>
     <subtitle>JobMetric Blog</subtitle>
-    <icon>https://jobmetric.github.io/img/favicon.svg</icon>
+    <icon>https://jobmetric.github.io/img/faveicon.svg</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://jobmetric.github.io/blog/welcome</id>
-        <link href="https://jobmetric.github.io/blog/welcome"/>
-        <updated>2021-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer" class="">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer" class="">blog plugin</a>.</p>
-<p>Here are a few tips you might find useful.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
+        <title type="html"><![CDATA[Introducing Jobic: A CMS built on Laravel]]></title>
+        <id>https://jobmetric.github.io/blog/introducing-jobic/</id>
+        <link href="https://jobmetric.github.io/blog/introducing-jobic/"/>
+        <updated>2026-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet JobMetric's flagship CMS for teams that want an editorial workspace and a Laravel application they can extend.]]></summary>
+        <content type="html"><![CDATA[<p>Jobic is JobMetric's flagship CMS. It gives editorial teams a workspace for managing content and gives developers a Laravel application they can extend with the same tools they already use.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-workspace-for-the-people-who-run-the-site">A workspace for the people who run the site<a href="https://jobmetric.github.io/blog/introducing-jobic/#a-workspace-for-the-people-who-run-the-site" class="hash-link" aria-label="Direct link to A workspace for the people who run the site" title="Direct link to A workspace for the people who run the site" translate="no">​</a></h2>
+<p>Editors can write pages and posts with a block editor, preview their drafts, and select assets from a shared media library. Teams working in multiple languages can manage active languages and edit language-specific content. Role-based permissions help teams give editors and administrators access to the work each role handles.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="laravel-stays-at-the-center">Laravel stays at the center<a href="https://jobmetric.github.io/blog/introducing-jobic/#laravel-stays-at-the-center" class="hash-link" aria-label="Direct link to Laravel stays at the center" title="Direct link to Laravel stays at the center" translate="no">​</a></h2>
+<p>The application still uses Eloquent for data, Blade for views, Laravel policies for authorization, and Artisan for command-line tasks. When your site needs a custom catalog, a member area, or an integration with another service, your developers can build it using those same conventions.</p>
+<p>A publishing team might start with posts, media, and editorial review. A business might start with pages and add a catalog later. Both projects can use the same CMS foundation and grow in different directions.</p>
+<p><a class="" href="https://jobmetric.github.io/jobic/">Explore Jobic</a> for a closer look at the workspace, architecture, and setup.</p>]]></content>
+        <author>
+            <name>JobMetric Team</name>
+            <uri>https://github.com/jobmetric</uri>
+        </author>
+        <category label="Jobic" term="Jobic"/>
+        <category label="Laravel" term="Laravel"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From draft to publication with Jobic’s editorial workflows]]></title>
+        <id>https://jobmetric.github.io/blog/jobic-editorial-workflows/</id>
+        <link href="https://jobmetric.github.io/blog/jobic-editorial-workflows/"/>
+        <updated>2026-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[See how Jobic combines the block editor, Kanban, role-based transitions, and workflow simulation.]]></summary>
+        <content type="html"><![CDATA[<p>Publishing gets harder when several people review a post, work across languages, or need to agree on when a draft is ready. Jobic brings that work together with an editor, a content Kanban board, and configurable workflow transitions.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="give-each-stage-a-purpose">Give each stage a purpose<a href="https://jobmetric.github.io/blog/jobic-editorial-workflows/#give-each-stage-a-purpose" class="hash-link" aria-label="Direct link to Give each stage a purpose" title="Direct link to Give each stage a purpose" translate="no">​</a></h2>
+<p>An author can write and preview a draft, then send it for review when the configured workflow allows it. The Kanban board helps the team see posts by stage. A reviewer can move a post through an available transition, subject to that person's role and the workflow's rules.</p>
+<p>A simple workflow might have <strong>Draft</strong>, <strong>Review</strong>, and <strong>Publish</strong> stages. Teams can define stages and transitions around their own editorial process.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="test-a-workflow-before-using-it-with-real-content">Test a workflow before using it with real content<a href="https://jobmetric.github.io/blog/jobic-editorial-workflows/#test-a-workflow-before-using-it-with-real-content" class="hash-link" aria-label="Direct link to Test a workflow before using it with real content" title="Direct link to Test a workflow before using it with real content" translate="no">​</a></h2>
+<p>Jobic's workflow designer can simulate an unsaved workflow. Provide a sample draft, choose a stage and role, then inspect which transitions are available and which checks pass. The simulation does not publish the draft or execute workflow actions.</p>
+<p>Start with one review step that solves a real problem for your team. Test it with two roles, such as author and reviewer, before adding more stages.</p>
+<p><a class="" href="https://jobmetric.github.io/jobic/">See the editorial workspace on the Jobic product page</a>.</p>]]></content>
+        <author>
+            <name>JobMetric Team</name>
+            <uri>https://github.com/jobmetric</uri>
+        </author>
+        <category label="Jobic" term="Jobic"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The open-source Laravel packages behind Jobic]]></title>
+        <id>https://jobmetric.github.io/blog/open-source-behind-jobic/</id>
+        <link href="https://jobmetric.github.io/blog/open-source-behind-jobic/"/>
+        <updated>2026-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Meet the JobMetric packages that handle permissions, editorial workflows, and localization in Jobic.]]></summary>
+        <content type="html"><![CDATA[<p>Jobic brings several of JobMetric's open-source Laravel packages together in one application. You can also use those packages independently when your own Laravel project needs a single capability.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="three-capabilities-separate-packages">Three capabilities, separate packages<a href="https://jobmetric.github.io/blog/open-source-behind-jobic/#three-capabilities-separate-packages" class="hash-link" aria-label="Direct link to Three capabilities, separate packages" title="Direct link to Three capabilities, separate packages" translate="no">​</a></h2>
 <ul>
-<li class=""><code>2019-05-30-welcome.md</code></li>
-<li class=""><code>2019-05-30-welcome/index.md</code></li>
+<li class=""><strong>Rolix</strong> gives Jobic a foundation for role-based permissions. Jobic uses it to enforce access to admin pages and actions.</li>
+<li class=""><strong>Laravel Flow</strong> provides building blocks for stages and transitions. Jobic uses them to model how posts move through editorial review.</li>
+<li class=""><strong>Laravel Language and Laravel Translation</strong> support language records and translatable fields. Jobic uses them in its multilingual content workflow.</li>
 </ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://jobmetric.github.io/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content>
+<p>This separation gives teams a practical choice. If your existing Laravel app needs workflow states, you can explore Laravel Flow on its own. If you want a CMS with an editorial workspace, media library, and role management, look at how Jobic brings those capabilities together.</p>
+<p><a class="" href="https://jobmetric.github.io/packages/intro/">Browse JobMetric’s package documentation</a> or <a class="" href="https://jobmetric.github.io/jobic/">see how the packages fit into Jobic</a>.</p>]]></content>
         <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
+            <name>JobMetric Team</name>
+            <uri>https://github.com/jobmetric</uri>
         </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Facebook" term="Facebook"/>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://jobmetric.github.io/blog/mdx-blog-post</id>
-        <link href="https://jobmetric.github.io/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer" class="">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer" class="">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
-<!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre></div></div>
-<button>Click me!</button>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://jobmetric.github.io/blog/long-blog-post</id>
-        <link href="https://jobmetric.github.io/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://jobmetric.github.io/blog/first-blog-post</id>
-        <link href="https://jobmetric.github.io/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-        <author>
-            <name>Yangshun Tay</name>
-            <uri>https://linkedin.com/in/yangshun</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="Jobic" term="Jobic"/>
+        <category label="Laravel" term="Laravel"/>
+        <category label="Open source" term="Open source"/>
     </entry>
 </feed>
